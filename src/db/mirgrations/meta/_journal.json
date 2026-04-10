@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1775852962653,
+      "tag": "0000_elite_gladiator",
+      "breakpoints": true
+    }
+  ]
+}

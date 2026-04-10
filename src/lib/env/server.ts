@@ -12,6 +12,10 @@ export const env = createEnv({
       .string()
       .min(1, 'Sanity Token must have at least 1 character')
       .startsWith('sk'),
+    DATABASE_URL: z
+      .string()
+      .min(1, `Database URL must have at least 1 character`)
+      .startsWith('postgresql://'),
   },
   experimental__runtimeEnv: process.env,
 });
