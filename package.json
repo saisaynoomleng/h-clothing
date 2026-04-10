@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "tsc --noEmit && vitest --watch",
+    "sanity:typegen": "sanity schema extract --path=./src/extract.json && sanity typegen generate",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
   },
   "dependencies": {
     "@sanity/image-url": "^2.1.1",
@@ -36,6 +40,7 @@
     "clsx": "^2.1.1",
     "eslint": "^9",
     "eslint-config-next": "16.2.3",
+    "happy-dom": "^20.8.9",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
     "typescript": "^5",
