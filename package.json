@@ -13,9 +13,12 @@
     "db:migrate": "drizzle-kit migrate"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
     "@sanity/image-url": "^2.1.1",
     "@sanity/vision": "^5.20.0",
     "class-variance-authority": "^0.7.1",
+    "dotenv": "^17.4.1",
+    "drizzle-orm": "^0.45.2",
     "lucide-react": "^1.7.0",
     "next": "16.2.3",
     "next-sanity": "^12.2.2",
@@ -38,6 +41,7 @@
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
     "clsx": "^2.1.1",
+    "drizzle-kit": "^0.31.10",
     "eslint": "^9",
     "eslint-config-next": "16.2.3",
     "happy-dom": "^20.8.9",
